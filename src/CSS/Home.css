@@ -1,0 +1,17 @@
+.home_main{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #f0f0f0;
+
+}
+.home_heading_container{
+    margin: 10px auto;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

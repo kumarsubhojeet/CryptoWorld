@@ -1,0 +1,31 @@
+.Cryptocurrency_main{
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    background: #f0f0f0;
+}
+.card{
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fafafa;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+.card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card_top{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 17px;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+.card_body{
+    text-align: justify;
+    padding: 10px 17px;
+}

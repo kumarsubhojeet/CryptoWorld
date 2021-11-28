@@ -1,0 +1,118 @@
+.CryptoDetail_main{
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.CD_stats{
+    width: 100%;
+    display: flex;
+    margin: 10px auto;
+}
+.left{
+    flex: 1;
+    text-align: justify;    
+}
+.center{
+    flex: 1;
+}
+.right{
+    flex: 1;
+    text-align: right; 
+}
+
+.det{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #bfbfbf;
+    padding: 8px 0;
+}
+.det_left{
+    flex: 1;
+    text-align: justify;
+    padding-left: 10px;
+    padding-bottom: 6px;
+}
+.det_right{
+    flex: 1;
+    justify-content: flex-end;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 6px;
+}
+.long_text{
+    margin: 20px auto;
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+}
+.long_left{
+    flex: 2;
+}
+.long_right{
+    flex: 1;
+    text-align:justify;
+    padding: 2px 20px;
+}
+.long_center{
+    flex: 1;
+}
+
+.coin-details-heading{
+    color: #003a8c !important;
+}
+
+  
+  .coin-link{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #8c8c8c;
+      padding: 20px;
+
+  }
+  
+  .link-name{
+      text-transform: capitalize;
+      font-size: 1rem;
+  }
+  .coin-link a{
+    color: #003a8c;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.coin-link:hover, .coin-stats:hover{
+    background-color: #F9F9F9;
+}
+
+@media screen and (max-width: 580px) {
+    .CD_stats{
+        width: 100%;
+        display: flex;
+        margin: 20px auto;
+        flex-direction: column;
+    }
+    .left{
+        text-align: center;    
+    }
+    .right{
+        flex: 1;
+        text-align: center; 
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .long_text{
+        margin: 10px auto;
+        text-align: justify;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .coin-details-heading{
+        text-align: center;
+    }
+   
+}

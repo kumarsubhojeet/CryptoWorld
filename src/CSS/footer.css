@@ -1,0 +1,9 @@
+.footermain{
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+    background-color:#003a8c;
+}
+.footer_details{
+    padding: 15px 0;
+}
