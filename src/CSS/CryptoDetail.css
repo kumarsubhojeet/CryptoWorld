@@ -87,6 +87,9 @@
 .coin-link:hover, .coin-stats:hover{
     background-color: #F9F9F9;
 }
+.chat_main{
+    margin:20px auto
+}
 
 @media screen and (max-width: 580px) {
     .CD_stats{

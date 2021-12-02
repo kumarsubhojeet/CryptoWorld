@@ -13,7 +13,7 @@ export default function News({ news }) {
       <div className="news_main">
         <Row gutter={0}>
           {news.map((coins) => (
-            <Col className="gutter" span={6} xs={24} md={8}>
+            <Col className="gutter" xs={24} md={6}>
              <a href={coins.url} target="_blank" rel="noreferrer">
              <div className="card_news">
                 <div className="card_top_news">

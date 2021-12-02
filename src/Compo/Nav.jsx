@@ -26,7 +26,7 @@ export default function Nav() {
          <div className="nav_left">
             <Avatar src={logo} size="large" alt="Error" />
             <Title className="nav_heading" style={{ color: "white" }} level={3}>
-              CryptoVerse
+              CryptoWorld
             </Title>
           </div>
          </Link>
@@ -39,6 +39,7 @@ export default function Nav() {
               className="drawer"
               onClose={onClose}
               visible={visible}
+              width="270"
             >
               <div className="nav-ul">
               <Link onClick={onClose} to="/" className="nav_Links" ><HomeOutlined /><span className="nav_title">Home</span></Link>

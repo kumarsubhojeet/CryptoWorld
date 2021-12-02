@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="footermain">
         <div className="footer_details">
           <Title className="nav_heading" style={{ color: "white" }} level={3}>
-            CryptoVerse
+            CryptoWorld
           </Title>
           <p  style={{ color: "white" }} > All rights reserverd</p>
         </div>

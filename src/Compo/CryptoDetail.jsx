@@ -5,6 +5,7 @@ import "../CSS/CryptoDetail.css";
 import { Typography , Col ,Row , Statistic} from "antd";
 import {SafetyOutlined,ExclamationCircleOutlined,LineChartOutlined,CloseOutlined,CheckOutlined,MoneyCollectOutlined,BarChartOutlined,RiseOutlined, DollarOutlined , InfoOutlined } from "@ant-design/icons";
 import approx from "approximate-number"
+import CHat from '../Compo/Chat'
 
 const { Title } = Typography;
 
@@ -52,7 +53,9 @@ export default function CryptoDetail() {
           </Title>
         </div>
 
-        <div className="chat"></div>
+        <div className="chat">
+          <CHat />
+        </div>
 
         <div className="CD_stats">
           <div className="left">
@@ -69,7 +72,7 @@ export default function CryptoDetail() {
                   Rank
                 </div>
 
-                <div className="det_right"><h5>{coin.rank}</h5></div>
+                <div className="det_right"><Title level={5}>{coin.rank}</Title></div>
               </div>
 
               <div className="det">
@@ -130,7 +133,7 @@ export default function CryptoDetail() {
                   Number Of Markets
                 </div>
 
-                <div className="det_right"><h5>{coin.numberOfMarkets}</h5></div>
+                <div className="det_right"><Title level={5}>{coin.numberOfMarkets}</Title></div>
               </div>
 
               <div className="det">

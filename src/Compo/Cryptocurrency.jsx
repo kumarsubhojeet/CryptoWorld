@@ -15,7 +15,7 @@ export default function Cryptocurrency({ coins }) {
       <div className="Cryptocurrency_main">
         <Row gutter={0}>
           {coins.map((coins) => (
-            <Col className="gutter-row" span={6} xs={24} md={8}>
+            <Col className="gutter-row" xs={24} md={6}>
              <Link to={`/CryptoDetaiils/${coins.id}`}>
              <div className="card">
                   <div className="card_top">

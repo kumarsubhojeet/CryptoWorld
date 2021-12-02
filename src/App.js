@@ -8,8 +8,24 @@ import CryptoDetail from './Compo/CryptoDetail.jsx'
 import AllCryptoCurrencies from './Compo/AllCryptoCurrencies.jsx'
 import Exchanges from './Compo/Exchanges.jsx'
 import NewsDetail from './Compo/NewsDetail.jsx'
+import { BackTop } from 'antd';
+
+import {
+  ArrowUpOutlined
+} from '@ant-design/icons';
 
 const App = () => {
+  const style = {
+    height: 40,
+    width: 40,
+    lineHeight: '40px',
+    borderRadius: 40,
+    backgroundColor: '#003a8c',
+    color: '#fff',
+    textAlign: 'center',
+    fontSize: 19,
+  };
+
   return (
     <>
       <Nav />
@@ -36,6 +52,10 @@ const App = () => {
 
       </Switch>
       <Footer />
+
+      <BackTop duration={2000} >
+      <div style={style}><ArrowUpOutlined /></div>
+    </BackTop>
     </>
   )
 }
